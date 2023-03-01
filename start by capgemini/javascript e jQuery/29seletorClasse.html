@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Seletor Classe</title>
+
+        <!--JavaScript entra aqui-->
+        <script>
+            
+            function exibirTexto(){
+                var campo = document.getElementsByClassName("texto")[2];
+                alert(campo.innerHTML);
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="exibirTexto()">Clique aqui</button>
+        <h1 class="texto">Lucas</h1>
+        <h2 class="texto">Fernandes</h2>
+        <p class="texto">Sarchis</p>
+    </body>
+</html>

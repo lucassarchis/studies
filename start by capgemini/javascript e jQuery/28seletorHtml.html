@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Seletor HTML</title>
+
+        <!--JavaScript entra aqui-->
+        <script>
+            
+            function acao(){
+                var texto = document.getElementsByTagName("h1")[0];
+                alert(texto.innerHTML);
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="acao()">Selecionar</button>
+        <h1>Lucas</h1>
+        <h1>Fernandes</h1>
+        <h1>Sarchis</h1>
+    </body>
+</html>
