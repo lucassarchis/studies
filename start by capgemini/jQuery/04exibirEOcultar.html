@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exibir e ocultar</title>
+        <script src="jquery-3.6.3.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("#ocultar").click(function(){
+                $("img").hide();
+            });
+
+            $("#exibir").click(function(){
+                $("img").show();
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <button id="exibir">Exibir</button>
+        <button id="ocultar">Ocultar</button>
+        <br>
+        <img src="https://images.tcdn.com.br/img/img_prod/691184/teste_213_1_20200528133119.png"> 
+
+    </body>
+</html>

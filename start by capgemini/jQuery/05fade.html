@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fade</title>
+        <script src="jquery-3.6.3.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("h1").css("display","none");
+            $("#exibir").click(function(){
+                $("h1").fadeIn(3000);
+            });
+            $("#ocultar").click(function(){
+                $("h1").fadeOut();
+            });
+
+
+        });
+        </script>
+    </head>
+    <body>
+        <button id="exibir">Exibir</button>
+        <button id="ocultar">Ocultar</button>
+        <hr>
+        <h1>Aprendendo jQuery</h1>
+
+    </body>
+</html>
