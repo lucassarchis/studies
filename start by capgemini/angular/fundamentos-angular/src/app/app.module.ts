@@ -10,6 +10,9 @@ import { MultiplicadorComponent } from './multiplicador/multiplicador.component'
 import { TwoWayDataBindComponent } from './two-way-data-bind/two-way-data-bind.component';
 import { FormsModule } from '@angular/forms';
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { RenderizandoListasComponent } from './renderizando-listas/renderizando-
     MultiplicaPorPipe,
     MultiplicadorComponent,
     TwoWayDataBindComponent,
-    RenderizandoListasComponent
+    RenderizandoListasComponent,
+    ComponentePersonalizadoComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent
   ],
   imports: [
     BrowserModule,
