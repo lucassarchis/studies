@@ -7,6 +7,9 @@ import { PrimeiroComponenteComponent } from './primeiro-componente/primeiro-comp
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { MultiplicadorComponent } from './multiplicador/multiplicador.component';
+import { TwoWayDataBindComponent } from './two-way-data-bind/two-way-data-bind.component';
+import { FormsModule } from '@angular/forms';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { MultiplicadorComponent } from './multiplicador/multiplicador.component'
     PrimeiroComponenteComponent,
     SegundoComponenteComponent,
     MultiplicaPorPipe,
-    MultiplicadorComponent
+    MultiplicadorComponent,
+    TwoWayDataBindComponent,
+    RenderizandoListasComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

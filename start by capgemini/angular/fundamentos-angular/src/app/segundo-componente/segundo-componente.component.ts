@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class SegundoComponenteComponent {
  nome = "Lucas";
  dataNascimento = "1995-01-01";
+ urlImagem = "/assets/a.jpg";
+
+ mostrarDataNascimento(){
+  alert(`A data de nascimento de João é: ${this.dataNascimento}`);
+ }
 }
