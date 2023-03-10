@@ -14,13 +14,13 @@
 
 .main-header__title--blue {
     color: var(--blue);
-    color: blue;
+    color: rgb(69, 128, 218);
     font-size:60px;
 }
 
 .main-header__title--orange {
     color: var(--orange);
-    color: orange;
+    color: rgb(233, 121, 47);
     font-size:60px;
 }
 
